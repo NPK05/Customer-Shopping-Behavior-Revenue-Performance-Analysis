@@ -85,46 +85,46 @@ SQL queries were written to answer key business questions:
 An interactive **Power BI dashboard** was created to visualize key business insights.
 ### Key Dashboard Metrics
 
-- 💰 **Total Revenue**
-- 👤 **Total Customers**
-- 📈 **Average Customer Spend**
-- ⭐ **Average Review Rating**
-- 🛍 **Revenue by Product Category**
-- 👥 **Revenue by Customer Segment**
-- 👨‍👩‍👧 **Revenue by Gender**
+ 💰 **Total Revenue**
+ 👤 **Total Customers**
+ 📈 **Average Customer Spend**
+ ⭐ **Average Review Rating**
+ 🛍 **Revenue by Product Category**
+ 👥 **Revenue by Customer Segment**
+ 👨‍👩‍👧 **Revenue by Gender**
 
 ---
 
 ## 🔍 Key Insights
 
-- 🛍 **Clothing** is the highest revenue-generating category
-- 🔁 **Loyal customers** generate the largest share of revenue
-- 👨 **Male customers** account for a larger portion of purchases
-- 👥 **Young and middle-aged customers** drive significant revenue
-- 📍 Certain locations contribute higher sales than others
+ 🛍 **Clothing** is the highest revenue-generating category
+ 🔁 **Loyal customers** generate the largest share of revenue
+ 👨 **Male customers** account for a larger portion of purchases
+ 👥 **Young and middle-aged customers** drive significant revenue
+ 📍 Certain locations contribute higher sales than others
 
 ---
 ## 🚀 How to Run the Project
-- 1️⃣ Clone the repository
+ 1️⃣ Clone the repository
 git clone https://github.com/yourusername/customer-shopping-analysis.git
-- 2️⃣ Install required libraries
+ 2️⃣ Install required libraries
 pip install pandas numpy matplotlib seaborn psycopg2
-- 3️⃣ Run Jupyter Notebook
+ 3️⃣ Run Jupyter Notebook
 jupyter notebook Data_Analysis.ipynb
-- 4️⃣ Load data into PostgreSQL
+ 4️⃣ Load data into PostgreSQL
 Run the SQL scripts to perform business analysis.
-- 5️⃣ Open Power BI Dashboard
+ 5️⃣ Open Power BI Dashboard
 Open the .pbix file to explore interactive visualizations.
 
 ---
 ## 💼 Business Value
 This project demonstrates how data analytics can help organizations:
 
-- ✔ Understand customer purchasing behavior
-- ✔ Identify high-performing product categories
-- ✔ Improve customer retention strategies
-- ✔ Optimize marketing campaigns
-- ✔ Enable data-driven business decisions
+ ✔ Understand customer purchasing behavior
+ ✔ Identify high-performing product categories
+ ✔ Improve customer retention strategies
+ ✔ Optimize marketing campaigns
+ ✔ Enable data-driven business decisions
 ---
 ## 📌 Future Improvements
 - Add predictive models for customer lifetime value
