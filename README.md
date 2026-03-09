@@ -34,7 +34,6 @@ Each row represents one customer purchase transaction.
 
 
 ## ⚙ Project Workflow
-## ⚙ Project Workflow
 
 ### 1️⃣ Data Loading
 The dataset was imported into **Python using Pandas** for exploration and preprocessing.
