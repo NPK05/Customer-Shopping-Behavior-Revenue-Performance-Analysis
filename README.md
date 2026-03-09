@@ -61,7 +61,6 @@ New analytical features were created:
 - Senior  
 
 **🔄 Customer Segments**
-
 - New  
 - Growing  
 - Established  
@@ -69,12 +68,8 @@ New analytical features were created:
 
 These features help analyze **customer lifecycle behavior**.
 
----
-
 ### 4️⃣ Data Loading to Database
 The cleaned dataset was exported from Python and loaded into a **PostgreSQL local database server** for SQL analysis.
-
----
 
 ### 5️⃣ SQL Business Analysis
 SQL queries were written to answer key business questions:
@@ -88,6 +83,9 @@ SQL queries were written to answer key business questions:
 ## 📊 Dashboard
 
 An interactive **Power BI dashboard** was created to visualize key business insights.
+<img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/b3505943-1dd4-4f28-9f2a-3371bd875c4f" />
+
+---
 
 ### Key Dashboard Metrics
 
@@ -109,7 +107,7 @@ An interactive **Power BI dashboard** was created to visualize key business insi
 - 👥 **Young and middle-aged customers** drive significant revenue
 - 📍 Certain locations contribute higher sales than others
 
-
+---
 ## 🚀 How to Run the Project
 - 1️⃣ Clone the repository
 git clone https://github.com/yourusername/customer-shopping-analysis.git
@@ -131,15 +129,15 @@ This project demonstrates how data analytics can help organizations:
 - ✔ Improve customer retention strategies
 - ✔ Optimize marketing campaigns
 - ✔ Enable data-driven business decisions
-
+---
 ## 📌 Future Improvements
 - Add predictive models for customer lifetime value
 - Build automated ETL pipelines
 - Deploy dashboard using Power BI Service
-
+---
 ✅ Author: Pavan Kumar
 📊 Role: Data Analyst
 
-<img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/6395884e-7ef2-4164-a509-96977f8cfd8a" />
+
 
 
