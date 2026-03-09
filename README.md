@@ -126,18 +126,20 @@ Open the .pbix file to explore interactive visualizations.
 ## 💼 Business Value
 This project demonstrates how data analytics can help organizations:
 
-✔ Understand customer purchasing behavior
-✔ Identify high-performing product categories
-✔ Improve customer retention strategies
-✔ Optimize marketing campaigns
-✔ Enable data-driven business decisions
+- ✔ Understand customer purchasing behavior
+- ✔ Identify high-performing product categories
+- ✔ Improve customer retention strategies
+- ✔ Optimize marketing campaigns
+- ✔ Enable data-driven business decisions
 
 ## 📌 Future Improvements
-Add predictive models for customer lifetime value
-
-Build automated ETL pipelines
-
-Deploy dashboard using Power BI Service
+- Add predictive models for customer lifetime value
+- Build automated ETL pipelines
+- Deploy dashboard using Power BI Service
 
 ✅ Author: Pavan Kumar
 📊 Role: Data Analyst
+
+<img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/6395884e-7ef2-4164-a509-96977f8cfd8a" />
+
+
