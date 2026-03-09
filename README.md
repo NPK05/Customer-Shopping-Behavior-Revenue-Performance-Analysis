@@ -38,8 +38,6 @@ Each row represents one customer purchase transaction.
 ### 1️⃣ Data Loading
 The dataset was imported into **Python using Pandas** for exploration and preprocessing.
 
----
-
 ### 2️⃣ Data Cleaning
 Key cleaning steps included:
 
@@ -48,7 +46,6 @@ Key cleaning steps included:
 - ✔ Removing unnecessary columns  
 - ✔ Ensuring correct data types  
 
----
 
 ### 3️⃣ Feature Engineering
 New analytical features were created:
