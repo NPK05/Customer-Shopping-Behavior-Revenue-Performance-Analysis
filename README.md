@@ -34,57 +34,57 @@ Each row represents one customer purchase transaction.
 
 
 ## ⚙ Project Workflow
-| 1️⃣ Data Loading |
-The dataset was imported into Python using Pandas for exploration and preprocessing.
+## ⚙ Project Workflow
 
-| 2️⃣ Data Cleaning |
+### 1️⃣ Data Loading
+The dataset was imported into **Python using Pandas** for exploration and preprocessing.
+
+---
+
+### 2️⃣ Data Cleaning
 Key cleaning steps included:
 
-✔ Handling missing values
-✔ Standardizing column names
-✔ Removing unnecessary columns
-✔ Ensuring correct data types
+- ✔ Handling missing values  
+- ✔ Standardizing column names  
+- ✔ Removing unnecessary columns  
+- ✔ Ensuring correct data types  
 
-| 3️⃣ Feature Engineering |
+---
+
+### 3️⃣ Feature Engineering
 New analytical features were created:
 
-👥 Age Groups
+**👥 Age Groups**
 
-Youngster
+- Youngster  
+- Adult  
+- Middle-aged  
+- Senior  
 
-Adult
+**🔄 Customer Segments**
 
-Middle-aged
+- New  
+- Growing  
+- Established  
+- Loyal  
 
-Senior
+These features help analyze **customer lifecycle behavior**.
 
-| 🔄 Customer Segments |
+---
 
-New
+### 4️⃣ Data Loading to Database
+The cleaned dataset was exported from Python and loaded into a **PostgreSQL local database server** for SQL analysis.
 
-Growing
+---
 
-Established
-
-Loyal
-
-These features help analyze customer lifecycle behavior.
-
-| 4️⃣ Data Loading to Database |
-The cleaned dataset was exported from Python and loaded into a PostgreSQL local database server for SQL analysis.
-
-| 5️⃣ SQL Business Analysis |
+### 5️⃣ SQL Business Analysis
 SQL queries were written to answer key business questions:
 
-📊 Which product categories generate the most revenue?
-
-👥 Which customer segments contribute the most sales?
-
-📍 Which locations produce the highest revenue?
-
-🔔 Do subscription customers spend more?
-
-📅 Are there seasonal trends in purchases?
+- 📊 Which product categories generate the most revenue?  
+- 👥 Which customer segments contribute the most sales?  
+- 📍 Which locations produce the highest revenue?  
+- 🔔 Do subscription customers spend more?  
+- 📅 Are there seasonal trends in purchases?
 
 ## 📊 Dashboard
 An interactive Power BI dashboard was created to visualize insights.
