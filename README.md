@@ -100,9 +100,10 @@ An interactive **Power BI dashboard** was created to visualize insights.
 - 👥 Revenue by Customer Segment
 - 👨‍👩‍👧 Revenue by Gender
 
-*(Add your dashboard screenshot below)*
+-
 
-![Dashboard](images/dashboard.png)
+<img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/35052fb6-1869-438b-8e49-3b01b8a2fdcf" />
+
 
 ---
 
