@@ -119,16 +119,15 @@ An interactive **Power BI dashboard** was created to visualize key business insi
 git clone https://github.com/yourusername/customer-shopping-analysis.git
 
 ## 🚀 How to Run the Project
-1️⃣ Clone the repository
+- 1️⃣ Clone the repository
 git clone https://github.com/yourusername/customer-shopping-analysis.git
-2️⃣ Install required libraries
+- 2️⃣ Install required libraries
 pip install pandas numpy matplotlib seaborn psycopg2
-3️⃣ Run Jupyter Notebook
+- 3️⃣ Run Jupyter Notebook
 jupyter notebook Data_Analysis.ipynb
-4️⃣ Load data into PostgreSQL
+- 4️⃣ Load data into PostgreSQL
 Run the SQL scripts to perform business analysis.
-
-5️⃣ Open Power BI Dashboard
+- 5️⃣ Open Power BI Dashboard
 Open the .pbix file to explore interactive visualizations.
 
 
