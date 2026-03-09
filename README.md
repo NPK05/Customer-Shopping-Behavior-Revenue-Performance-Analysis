@@ -86,34 +86,37 @@ SQL queries were written to answer key business questions:
 - 📅 Are there seasonal trends in purchases?
 
 ## 📊 Dashboard
-An interactive Power BI dashboard was created to visualize insights.
 
-Key dashboard metrics include:
+An interactive **Power BI dashboard** was created to visualize key business insights.
 
-💰 Total Revenue
+### Key Dashboard Metrics
 
-👤 Total Customers
+- 💰 **Total Revenue**
+- 👤 **Total Customers**
+- 📈 **Average Customer Spend**
+- ⭐ **Average Review Rating**
+- 🛍 **Revenue by Product Category**
+- 👥 **Revenue by Customer Segment**
+- 👨‍👩‍👧 **Revenue by Gender**
 
-📈 Average Customer Spend
-
-⭐ Average Review Rating
-
-🛍 Revenue by Product Category
-
-👥 Revenue by Customer Segment
-
-👨‍👩‍👧 Revenue by Gender
+---
 
 ## 🔍 Key Insights
-🛍 Clothing is the highest revenue-generating category
 
-🔁 Loyal customers generate the largest share of revenue
+- 🛍 **Clothing** is the highest revenue-generating category
+- 🔁 **Loyal customers** generate the largest share of revenue
+- 👨 **Male customers** account for a larger portion of purchases
+- 👥 **Young and middle-aged customers** drive significant revenue
+- 📍 Certain locations contribute higher sales than others
 
-👨 Male customers account for a larger portion of purchases
+---
 
-👥 Young and middle-aged customers drive significant revenue
+## 🚀 How to Run the Project
 
-📍 Certain locations contribute higher sales than others
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/customer-shopping-analysis.git
 
 ## 🚀 How to Run the Project
 1️⃣ Clone the repository
