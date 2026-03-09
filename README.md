@@ -115,9 +115,7 @@ An interactive **Power BI dashboard** was created to visualize key business insi
 
 ## 🚀 How to Run the Project
 - 1️⃣ Clone the repository
-```bash
 git clone https://github.com/yourusername/customer-shopping-analysis.git
-```bash
 - 2️⃣ Install required libraries
 pip install pandas numpy matplotlib seaborn psycopg2
 - 3️⃣ Run Jupyter Notebook
