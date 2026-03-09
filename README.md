@@ -22,14 +22,15 @@ The dataset contains 3,900 customer purchase records with 18 columns, including:
 Each row represents one customer purchase transaction.
 
 ## 🛠 Tools & Technologies
-Tool	Purpose
-🐍 Python	Data cleaning & exploratory analysis
-📊 Pandas / NumPy	Data manipulation
-📈 Matplotlib / Seaborn	Data visualization
-🗄 PostgreSQL	Database storage
-💻 SQL	Business analysis
-📉 Power BI	Interactive dashboard
-📓 Jupyter Notebook	Analysis workflow
+| Tool | Purpose |
+|-----|-----|
+| Python | Data cleaning & exploratory analysis |
+| Pandas / NumPy | Data manipulation |
+| Matplotlib / Seaborn | Data visualization |
+| PostgreSQL | Database storage |
+| SQL | Business analysis |
+| Power BI | Interactive dashboards |
+| Jupyter Notebook | Analysis workflow |
 
 
 ## ⚙ Project Workflow
