@@ -4,6 +4,8 @@ This project analyzes customer shopping behavior and revenue performance to unco
 
 The goal is to transform raw transactional data into actionable business insights that help organizations understand customers, optimize product strategies, and improve revenue performance.
 
+---
+
 ## 📂 Dataset
 The dataset contains 3,900 customer purchase records with 18 columns, including:
 
@@ -21,6 +23,8 @@ The dataset contains 3,900 customer purchase records with 18 columns, including:
 
 Each row represents one customer purchase transaction.
 
+---
+
 ## 🛠 Tools & Technologies
 | Tool | Purpose |
 |-----|-----|
@@ -32,7 +36,7 @@ Each row represents one customer purchase transaction.
 | Power BI | Interactive dashboards |
 | Jupyter Notebook | Analysis workflow |
 
-
+---
 ## ⚙ Project Workflow
 
 ### 1️⃣ Data Loading
@@ -76,13 +80,9 @@ SQL queries were written to answer key business questions:
 - 📍 Which locations produce the highest revenue?  
 - 🔔 Do subscription customers spend more?  
 - 📅 Are there seasonal trends in purchases?
-
-## 📊 Dashboard
-
-An interactive **Power BI dashboard** was created to visualize key business insights.
-
 ---
-
+## 📊 Dashboard
+An interactive **Power BI dashboard** was created to visualize key business insights.
 ### Key Dashboard Metrics
 
 - 💰 **Total Revenue**
