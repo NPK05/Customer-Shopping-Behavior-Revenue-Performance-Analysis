@@ -109,9 +109,6 @@ An interactive **Power BI dashboard** was created to visualize key business insi
 - 👥 **Young and middle-aged customers** drive significant revenue
 - 📍 Certain locations contribute higher sales than others
 
----
-
-
 
 ## 🚀 How to Run the Project
 - 1️⃣ Clone the repository
