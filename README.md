@@ -83,7 +83,6 @@ SQL queries were written to answer key business questions:
 ## 📊 Dashboard
 
 An interactive **Power BI dashboard** was created to visualize key business insights.
-<img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/b3505943-1dd4-4f28-9f2a-3371bd875c4f" />
 
 ---
 
@@ -138,6 +137,7 @@ This project demonstrates how data analytics can help organizations:
 ✅ Author: Pavan Kumar
 📊 Role: Data Analyst
 
-
+--- 
+<img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/b3505943-1dd4-4f28-9f2a-3371bd875c4f" />
 
 
