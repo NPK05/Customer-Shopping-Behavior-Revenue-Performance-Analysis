@@ -1,10 +1,10 @@
 # Customer-Shopping-Behavior-Revenue-Performance-Analysis
-📌 Overview
+## 📌 Overview
 This project analyzes customer shopping behavior and revenue performance to uncover key factors influencing purchasing patterns. The project combines Python for data preparation, PostgreSQL for SQL analysis, and Power BI for interactive dashboards.
 
 The goal is to transform raw transactional data into actionable business insights that help organizations understand customers, optimize product strategies, and improve revenue performance.
 
-📂 Dataset
+## 📂 Dataset
 The dataset contains 3,900 customer purchase records with 18 columns, including:
 
 👤 Customer demographics (Age, Gender, Location)
@@ -21,7 +21,7 @@ The dataset contains 3,900 customer purchase records with 18 columns, including:
 
 Each row represents one customer purchase transaction.
 
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 Tool	Purpose
 🐍 Python	Data cleaning & exploratory analysis
 📊 Pandas / NumPy	Data manipulation
@@ -32,11 +32,11 @@ Tool	Purpose
 📓 Jupyter Notebook	Analysis workflow
 
 
-⚙ Project Workflow
-1️⃣ Data Loading
+## ⚙ Project Workflow
+| 1️⃣ Data Loading |
 The dataset was imported into Python using Pandas for exploration and preprocessing.
 
-2️⃣ Data Cleaning
+| 2️⃣ Data Cleaning |
 Key cleaning steps included:
 
 ✔ Handling missing values
@@ -44,7 +44,7 @@ Key cleaning steps included:
 ✔ Removing unnecessary columns
 ✔ Ensuring correct data types
 
-3️⃣ Feature Engineering
+| 3️⃣ Feature Engineering |
 New analytical features were created:
 
 👥 Age Groups
@@ -57,7 +57,7 @@ Middle-aged
 
 Senior
 
-🔄 Customer Segments
+| 🔄 Customer Segments |
 
 New
 
@@ -69,10 +69,10 @@ Loyal
 
 These features help analyze customer lifecycle behavior.
 
-4️⃣ Data Loading to Database
+| 4️⃣ Data Loading to Database |
 The cleaned dataset was exported from Python and loaded into a PostgreSQL local database server for SQL analysis.
 
-5️⃣ SQL Business Analysis
+| 5️⃣ SQL Business Analysis |
 SQL queries were written to answer key business questions:
 
 📊 Which product categories generate the most revenue?
@@ -85,7 +85,7 @@ SQL queries were written to answer key business questions:
 
 📅 Are there seasonal trends in purchases?
 
-📊 Dashboard
+## 📊 Dashboard
 An interactive Power BI dashboard was created to visualize insights.
 
 Key dashboard metrics include:
@@ -104,7 +104,7 @@ Key dashboard metrics include:
 
 👨‍👩‍👧 Revenue by Gender
 
-🔍 Key Insights
+## 🔍 Key Insights
 🛍 Clothing is the highest revenue-generating category
 
 🔁 Loyal customers generate the largest share of revenue
@@ -115,7 +115,7 @@ Key dashboard metrics include:
 
 📍 Certain locations contribute higher sales than others
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/customer-shopping-analysis.git
 2️⃣ Install required libraries
@@ -129,7 +129,7 @@ Run the SQL scripts to perform business analysis.
 Open the .pbix file to explore interactive visualizations.
 
 
-💼 Business Value
+## 💼 Business Value
 This project demonstrates how data analytics can help organizations:
 
 ✔ Understand customer purchasing behavior
@@ -138,7 +138,7 @@ This project demonstrates how data analytics can help organizations:
 ✔ Optimize marketing campaigns
 ✔ Enable data-driven business decisions
 
-📌 Future Improvements
+## 📌 Future Improvements
 Add predictive models for customer lifetime value
 
 Build automated ETL pipelines
