@@ -126,11 +126,11 @@ Power BI — Interactive Dashboard · KPI Reporting
 
 ## ⚙ Project Workflow
 
-### Step 1 — Data Loading & Exploration
+### Step 1. Data Loading & Exploration
 
 The dataset was imported into Python using Pandas. Functions `head()`, `info()`, and `describe()` were used to review structure, confirm 3,900 records and 18 variables, and verify data types for key numerical fields (`purchase_amount_usd`, `age`, `previous_purchases`).
 
-### Step 2 — Data Cleaning
+### Step 2. Data Cleaning
 
 | Issue | Resolution |
 |-------|-----------|
@@ -139,7 +139,7 @@ The dataset was imported into Python using Pandas. Functions `head()`, `info()`,
 | Missing values | Reviewed and handled appropriately |
 | Unnecessary columns | Removed to reduce noise |
 
-### Step 3 — Feature Engineering
+### Step 3. Feature Engineering
 
 Two new features were created to enable richer segmentation analysis:
 
@@ -161,11 +161,11 @@ Two new features were created to enable richer segmentation analysis:
 | Established | Regular purchasers |
 | Loyal | Highest purchase frequency |
 
-### Step 4 — Data Loading to PostgreSQL
+### Step 4. Data Loading to PostgreSQL
 
 The cleaned dataset was exported from Python and loaded into a **local PostgreSQL database server** for structured SQL analysis.
 
-### Step 5 — SQL Business Analysis
+### Step 5. SQL Business Analysis
 
 9 business questions were answered using SQL queries. See full analysis in the section below.
 
@@ -173,7 +173,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ## 🔍 Business Questions & SQL Analysis
 
-### Q1 — Who are the most valuable customer segments?
+### Q1. Who are the most valuable customer segments?
 
 **Finding:** Customers in the **56+ age group** generate the highest total revenue at **$65,256**, followed by 46–55 ($45,619) and 26–35 ($44,342).
 
@@ -184,7 +184,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ---
 
-### Q2 — Which product categories generate the most revenue?
+### Q2. Which product categories generate the most revenue?
 
 **Finding:** **Clothing** is the highest revenue-generating category, followed by Accessories and Footwear. Outerwear contributes the lowest revenue share.
 
@@ -195,7 +195,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ---
 
-### Q3 — Which individual products generate the highest revenue?
+### Q3. Which individual products generate the highest revenue?
 
 **Finding:** Top 5 revenue-generating products:
 
@@ -214,7 +214,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ---
 
-### Q4 — Do customers who receive discounts spend more?
+### Q4. Do customers who receive discounts spend more?
 
 **Finding:** Customers who receive discounts spend **slightly less per order** than customers without discounts.
 
@@ -225,7 +225,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ---
 
-### Q5 — Which locations generate the highest revenue?
+### Q5. Which locations generate the highest revenue?
 
 **Finding:** Top 5 revenue-generating states:
 
@@ -243,7 +243,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ---
 
-### Q6 — Which age groups spend the most?
+### Q6. Which age groups spend the most?
 
 **Finding:** The **18–25 age group** spends the **most per transaction**, while the **56+ group** generates the most revenue overall due to purchase frequency.
 
@@ -254,7 +254,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ---
 
-### Q7 — Do subscribed customers spend more?
+### Q7. Do subscribed customers spend more?
 
 **Finding:** **Non-subscribed customers (92.7%)** currently generate significantly more total revenue than subscribed customers (7.3%).
 
@@ -265,7 +265,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ---
 
-### Q8 — What seasonal trends exist in purchasing behaviour?
+### Q8. What seasonal trends exist in purchasing behaviour?
 
 **Finding:** Sales remain relatively stable across seasons, but **Fall performs slightly better** than other seasons.
 
@@ -276,7 +276,7 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ---
 
-### Q9 — Which products have the highest customer satisfaction?
+### Q9. Which products have the highest customer satisfaction?
 
 **Finding:** A specific group of products consistently achieves the highest customer review ratings (≥ 4.0), indicating strong product acceptance and market fit.
 
@@ -289,28 +289,28 @@ The cleaned dataset was exported from Python and loaded into a **local PostgreSQ
 
 ## 💡 Key Insights
 
-### 1 — Customer Base & Revenue Performance
+### 1. Customer Base & Revenue Performance
 The dataset of ~3,900 customers generates **$233,081 in total revenue** with an average spend of **$59.76 per customer**. The average review rating of **3.75/5.0** indicates moderate-to-good product satisfaction with room for improvement.
 
-### 2 — Gender-Based Revenue Distribution
+### 2. Gender-Based Revenue Distribution
 **Male customers dominate** — accounting for approximately **67.7%** of total sales vs 32.3% for female customers. Marketing strategies should reflect this skew while exploring opportunities to grow the female customer base.
 
-### 3 — Customer Age Segmentation
+### 3. Customer Age Segmentation
 Younger and middle-aged segments drive significant purchase activity. However, the **56+ segment generates the most revenue** due to higher purchase frequency, making it the most strategically important cohort for retention.
 
-### 4 — Product Category Performance
+### 4. Product Category Performance
 **Clothing is the clear revenue leader**, followed by Accessories and Footwear. Outerwear significantly underperforms. Product strategy should heavily favour Clothing expansion.
 
-### 5 — Subscription Programme Impact
+### 5. Subscription Programme Impact
 Only **7.3% of customers are subscribed**, yet the programme shows potential. The current non-subscriber dominance suggests the subscription model needs stronger incentivisation to drive adoption.
 
-### 6 — Customer Loyalty & Segmentation
+### 6. Customer Loyalty & Segmentation
 **Loyal customers are the largest segment at 1,549 customers** and contribute the greatest revenue share. Retaining this group is the single highest-ROI action the business can take.
 
-### 7 — Discount Strategy Effectiveness
+### 7. Discount Strategy Effectiveness
 Discounts do **not increase average transaction value** — they may attract volume but reduce per-order revenue. Blanket discount strategies should be replaced with precision-targeted promotions.
 
-### 8 — Seasonal Stability with Fall Peak
+### 8. Seasonal Stability with Fall Peak
 Revenue is seasonally stable, with a modest Fall uplift. The business is not heavily dependent on any single season, but Fall campaigns represent the best return on marketing investment.
 
 ---
@@ -362,14 +362,14 @@ An interactive **Power BI dashboard** was created to visualise all key findings.
 pip install pandas numpy matplotlib seaborn psycopg2 jupyter
 ```
 
-### 1 — Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/nallabothulapavankumar/customer-shopping-analysis.git
 cd customer-shopping-analysis
 ```
 
-### 2 — Run the Jupyter Notebook
+### 2. Run the Jupyter Notebook
 
 ```bash
 jupyter notebook Data_Analysis.ipynb
@@ -380,7 +380,7 @@ This will:
 - Perform feature engineering (age groups, customer segments)
 - Export the cleaned dataset for PostgreSQL loading
 
-### 3 — Load Data into PostgreSQL
+### 3. Load Data into PostgreSQL
 
 ```bash
 # Connect to your PostgreSQL instance and run
@@ -388,7 +388,7 @@ psql -U your_user -d your_db -f sql/load_data.sql
 psql -U your_user -d your_db -f sql/business_analysis.sql
 ```
 
-### 4 — Open the Power BI Dashboard
+### 4. Open the Power BI Dashboard
 
 Open `dashboard/Customer_Shopping_Analysis.pbix` in **Power BI Desktop** to explore all interactive visualisations.
 
@@ -418,7 +418,6 @@ Data Analyst
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
 The dataset is used for educational and portfolio purposes only.
 
 ---
