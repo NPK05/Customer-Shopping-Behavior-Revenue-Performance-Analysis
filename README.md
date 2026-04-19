@@ -1,6 +1,6 @@
 # 🛍 Customer Shopping Behavior & Revenue Performance Analysis
 
-> *Analysing 3,900 customer transactions to uncover revenue drivers, customer segments, and purchasing patterns — Python · PostgreSQL · Power BI*
+> *Analysing 3,900 customer transactions to uncover revenue drivers, customer segments, and purchasing patterns  Python · PostgreSQL · Power BI*
 
 <br>
 
